@@ -1,0 +1,54 @@
+.cyber{
+    padding-top: 100px;
+    width: 100%; /* Set the width of each card to 45% to fit two cards in a row */
+      margin: 3%; /* Add a little margin between the cards */
+      display: inline-block; /* Make the cards display in a row */
+      background-color:rgb(255, 252, 252);
+      padding: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      align-items: center;
+      font-size: x-large;
+      text-align: center;
+      margin-top: 100px;
+      padding-top: 100px;
+  
+    
+  }
+  
+  
+  .btn{
+  
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border:2px solid white;
+    background-color: rgb(14,185,75);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+   
+  }
+  
+  
+  .img{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(154, 154, 154);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    grid-gap: 20px; /* Add some gap between the cards */
+    padding-top: 100px;
+  }
+  
+  
+  
+  

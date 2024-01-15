@@ -1,0 +1,41 @@
+/* Set the navigation at the top of the page */
+.nav-elements {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff; /* Set the background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  justify-content: space-between; /* Align the content horizontally with space between */
+  align-items: center; /* Center-align the content vertically */
+  padding: 15px 40px; /* Add padding for spacing */
+}
+
+.nav-elements ul {
+  display: flex;
+  /* justify-content: space-between;   to get the space in the navigation bar */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 30px; /* Reduce the margin between navigation items */
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: #d74040;
+  font-weight: 500;
+  position: relative;
+}
+
+
+
